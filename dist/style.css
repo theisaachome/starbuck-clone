@@ -1,1 +1,125 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+html,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: .3125rem 0;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+section a {
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 1.25rem;
+  -webkit-box-shadow: 0 1px 3px black, 0 2px 2px black, 0 0 2px black;
+          box-shadow: 0 1px 3px black, 0 2px 2px black, 0 0 2px black;
+}
+
+.navbar__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 90rem;
+  margin: auto 0;
+}
+
+.navbar__logo img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  color: #006241;
+}
+
+.navbar__items--left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-transform: uppercase;
+  margin-left: 1.25rem;
+}
+
+.navbar__items--right li:hover {
+  color: #006241;
+}
+
+.navbar__items--right li:nth-last-child(2) {
+  margin-left: 0 .3125rem;
+}
+
+.navbar__items--right a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__items--right img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: .3125rem;
+}
+/*# sourceMappingURL=style.css.map */

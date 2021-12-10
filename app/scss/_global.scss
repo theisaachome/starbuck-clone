@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+html,
+body {
+    box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+a{color: #000;}
+ul{list-style: none;}
+p{margin: .3125rem 0;line-height: 1.7;}
+img {
+    max-width: 100%;
+  }
+  
+  section a {
+    color: #fff;
+  }
+  
